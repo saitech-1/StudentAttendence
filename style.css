@@ -1,0 +1,62 @@
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border-radius: 5px;
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+thead {
+	background-color: #e60012;
+  color: #fff;
+}
+
+th, td {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+th {
+	text-align: left;
+}
+
+tr:nth-child(even) {
+	background-color: #fff;
+}
+
+button[type="submit"] {
+  font-size: 15px;
+  background-color: #e60012;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+button[type="submit"]:hover {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
