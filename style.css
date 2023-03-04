@@ -1,7 +1,7 @@
 body {
 	background-image: url('background');
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 }
 .container:before {
 	content: "";
@@ -13,6 +13,7 @@ body {
 	height: 100%;
 	z-index: -1;
 }
+
 .container {
 	width: 1000px;
 	margin: 0 auto;
