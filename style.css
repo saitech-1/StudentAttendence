@@ -1,9 +1,9 @@
 body {
 	background-image: url('background');
-	background-size: cover;
-	background-repeat: repeat;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
-.container:before {
+.container::before {
 	content: "";
 	background: rgba(255,255,255, 0.7);
 	position: absolute;
@@ -54,7 +54,7 @@ th {
 }
 
 tr:nth-child(even) {
-	background-color: #fff;
+	background-color: #E6E6E6;
 }
 
 button[type="submit"] {
@@ -75,11 +75,4 @@ button[type="submit"]:hover {
 a {
   text-decoration: none;
   color: white;
-}
-
-@media screen and (max-width: 600px) {
-  .container {
-    max-width: 90%;
-  }
-	
 }
