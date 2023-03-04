@@ -1,9 +1,9 @@
 body {
 	background-image: url('background');
-	background-size: unset;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
-.container::before {
+body::before {
 	content: "";
 	background: rgba(255,255,255, 0.7);
 	position: absolute;
