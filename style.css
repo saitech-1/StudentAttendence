@@ -1,6 +1,6 @@
 body {
 	background-image: url('background');
-	background-size: contain;
+	background-size: unset;
 	background-repeat: no-repeat;
 }
 .container::before {
