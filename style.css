@@ -2,11 +2,12 @@ body {
 	background-image: url('background');
 	background-size: 100%;
 	background-attachment: fixed;
+	background-position: 3vh;
 	background-repeat: no-repeat;
 }
 
 .container {
-	max-width: 900px;
+	width:100%;
 	margin: 0 auto;
 	padding: 20px;
 	text-align: center;
