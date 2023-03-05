@@ -4,6 +4,7 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
+	overflow: auto;
 }
 
 .container {
@@ -70,12 +71,13 @@ a {
   color: white;
 }
 
-@media only screen and (min-device-width: 900px) {
+@media only screen and (min-device-width: 800px) {
   body {
     background-image: url('background');
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-position-y: 3vh;
+		overflow: auto;
   }
 }
